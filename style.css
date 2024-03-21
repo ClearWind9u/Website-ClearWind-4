@@ -12,3 +12,11 @@ body{
   height:400px;
   overflow:hidden;
 }
+.slides{
+  display:flex;
+  .slide{
+    width:400px;
+    height:400px;
+    object-fit:cover;
+  }
+}
