@@ -13,3 +13,23 @@ function next(){
   else index = 0
   slideContainer.style.transform = `translateX(-${IMG_WIDTH*index}px)`
 }
+
+function prev(){
+  if (index == 0){
+    index = slideImages.length - 1
+  }
+  else index--
+  slideContainer.style.transform = `translateX(-${IMG_WIDTH*index}px)`
+}
+
+document.getElementById('next').addEventListener('click', () =>{
+  next()
+})
+
+document.getElementById('prev').addEventListener('click', () =>{
+  prev()
+})
+
+setInterval(() =>{
+  next()
+}, 2 * 1000)

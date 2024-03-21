@@ -14,7 +14,7 @@ body{
 }
 .slides{
   display:flex;
-  transition:1s all;
+  transition:0.5s all;
   
   .slide{
     width:400px;
