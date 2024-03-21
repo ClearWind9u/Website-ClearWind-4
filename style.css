@@ -3,6 +3,7 @@ body{
   height:400px;
   border:1px solid black;
   display:flex;
+  margin: 10rem 30rem;
 }
 .control{
   flex-basis:100px;
